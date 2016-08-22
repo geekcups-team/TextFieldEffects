@@ -117,7 +117,7 @@ open class TextFieldEffects : UITextField {
     /**
     The textfield has ended an editing session.
     */
-    public func textFieldDidEndEditing() {
+    open func textFieldDidEndEditing() {
         animateViewsForTextDisplay()
     }
     
